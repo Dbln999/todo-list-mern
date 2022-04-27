@@ -1,0 +1,5 @@
+{
+  "PORT": 5000,
+  "uri": "mongodb+srv://dbln9:dbln9@cluster0.adpdw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "baseUri": "http://localhost:5000"
+}

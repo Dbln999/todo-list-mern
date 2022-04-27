@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mainPageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.todoContainer {
+  background-color: rgb(178, 178, 248);
+  padding-bottom: 140px;
+  border-radius: 30px;
+  display: flex;
+  width: 450px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btnsContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.todos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 90%;
+  border-bottom: 1px rgb(85, 85, 109) solid;
+  align-items: center;
+}
+.todoInput {
+  border-radius: 5px;
+  border: 1px solid rgb(83, 83, 119);
+  width: 250px;
+  height: 35px;
+  text-indent: 5px;
+  box-shadow: 2px 2px 2px rgb(83, 83, 119);
+}
+.todoInput:focus {
+  outline: 1.5px solid rgb(83, 83, 119);
+}
+.addTodoBtn {
+  width: 80px;
+  height: 35px;
+  margin-left: 20px;
+  border: 0;
+  background-color: rgb(227, 227, 255);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  box-shadow: 3px 3px 2px rgb(132, 132, 153);
+}
+.trash {
+  font-size: 23px;
+  cursor: pointer;
+}
+.todoCheckBox {
+  width: 16px;
+  height: 16px;
+}
+.todo-completed {
+  text-decoration: line-through;
+}
+.todoTitle {
+  border: 0;
+  background-color: rgb(178, 178, 248);
+  font-size: 18px;
+}
+.todoTitle:focus {
+  outline: 0;
+}
+.pencil {
+  cursor: pointer;
+}
